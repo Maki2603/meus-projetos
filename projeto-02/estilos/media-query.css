@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 775px) {
+
+    main {
+        width: 700px;
+        height: 550px;
+        border-radius: 10px;
+    }
+
+    div.imagem {
+        background-image: url("../images/image-product-desktop.jpg");
+        float: left;
+        width: 50%;
+        height: 100%;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    section {
+        float: right;
+        width: 330px;
+        height: 350px;
+        padding: 20px;
+    }
+
+    section > h1 {
+        font-size: 2em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    section > p#texto {
+        font-size: 1.3em;
+    }
+
+    div#compras {
+        float: right;
+        width: 320px;
+        margin-bottom: 40px;
+    }
+
+    form {
+        width: 300px;
+        float: right;
+    }
+
+
+}
+
