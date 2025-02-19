@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    body {
+        background: url("../imagens/pattern-background-desktop.svg") no-repeat;
+        background-position: top center;
+        background-size: 100vw;
+        background-color: #dfe7fe;
+    }
+}

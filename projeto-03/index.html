@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto 03</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
 </head>
 <body>
@@ -27,12 +28,16 @@
             <a href="#" target="_self">Change</a>
         </section>
 
-        <div id="formulario">
             <form action="algo.php">
-                <input type="submit" value="Proceed to Payment" id="pagamento"> <br>
-                <input type="reset" value="Cancel Order" id="cancelamento">
+                <div id="submit">
+                    <label for="pagamento"></label>
+                    <input type="submit" value="Proceed to Payment" id="pagamento">
+                    
+                </div>
+                <div id="reset">
+                    <input type="reset" value="Cancel Order" id="cancelamento">
+                </div>
             </form>
-            </main>
-        </div>
+        </main>
 </body>
 </html>
