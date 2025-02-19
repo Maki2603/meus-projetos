@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto 03</title>
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/media-query.css">
     <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
 </head>
 <body>
@@ -13,7 +12,7 @@
             <header id="pessoa-escutando-musica">
                 <img src="imagens/illustration-hero.svg" alt="Imagem de pessoa escutando musica" id="pessoa-escutando-musica">
             </header>
-            
+
         <section id="texto">
             <h1>Order Summary</h1>
             <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
@@ -28,10 +27,12 @@
             <a href="#" target="_self">Change</a>
         </section>
 
-        <form action="algo.php">
-            <input type="submit" value="Proceed to Payment">
-            <input type="reset" value="Cancel Order">
-        </form>
-        </main>
+        <div id="formulario">
+            <form action="algo.php">
+                <input type="submit" value="Proceed to Payment" id="pagamento"> <br>
+                <input type="reset" value="Cancel Order" id="cancelamento">
+            </form>
+            </main>
+        </div>
 </body>
 </html>
