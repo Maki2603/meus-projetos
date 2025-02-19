@@ -57,15 +57,38 @@ section#texto > p {
     font-weight: 500;
 }
 
-section#plano-anual {
-    padding: 10px;
+section#musica {
+    padding: 15px;
     margin: 20px;
     border-radius: 10px;
-    background-color: aqua;
+    background-color: hsl(225, 100%, 98%);
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
 }
 
+section#musica > img {
+    padding-right: 20px
+}
 
+div#plano-anual {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div#plano-anual > p {
+    flex-basis: 100px;
+    color: hsl(224, 23%, 55%);
+}
+
+div#plano-anual > p > strong {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+section#musica > a {
+    font-size: 14px;
+    padding-right: 20px;
+    font-weight: 800;
+}
