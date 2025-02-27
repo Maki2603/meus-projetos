@@ -107,10 +107,67 @@ div.linha-horizontal {
     border: 1px solid hsl(30, 18%, 87%);
 }
 
-table {
+section#instrucoes {
+    margin-top: 20px;
+}
+
+section#instrucoes > h2 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+section#instrucoes > ol {
+    margin: 20px;
+}
+
+section#instrucoes > ol > li {
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 10px;
+}
+
+section#instrucoes > ol > li::marker {
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+section#tabela-nutricional {
+    margin-top: 20px;
+}
+
+section#tabela-nutricional > h2 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+section#tabela-nutricional > p {
+    margin-top: 15px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+}
+
+section#tabela-nutricional > table {
     border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
 }
 
 td {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+    padding: 10px;
+}
+
+td.categorias {
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+}
+
+td.numeros {
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
 }
