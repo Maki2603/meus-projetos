@@ -1,6 +1,10 @@
 # meus-projetos
  <h1>Meus projetos de html e css</h1>
-
+<style>
+ body {
+  background: red;
+ }
+</style>
 
 <a href="https://maki2603.github.io/meus-projetos/projeto-01/index.html"><strong>Projeto 01</strong></a> <br>
 <a href="https://maki2603.github.io/meus-projetos/projeto-02/index.html"><strong>Projeto 02</strong></a> <br>
