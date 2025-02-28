@@ -42,6 +42,9 @@
             color: rgb(175, 175, 175);
         }
         @media screen and (min-width: 768px) {
+            main {
+                width: 750px;
+            }
             main > h1 {
                 font-size: 3rem;
                 margin-top: 5rem;
