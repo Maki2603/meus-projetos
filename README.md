@@ -44,9 +44,6 @@
         @media screen and (min-width: 768px) {
             main {
                 width: 1440px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
             }
             main > h1 {
                 font-size: 3rem;
