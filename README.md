@@ -44,6 +44,7 @@
         @media screen and (min-width: 768px) {
             main {
                 width: 750px;
+                text-align: center;
             }
             main > h1 {
                 font-size: 3rem;
