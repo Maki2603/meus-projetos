@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Karla", serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    height: 100vh;
+    width: 96vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#container {
+    width: 375px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: 
+    'main main'
+    'section section'
+    'footer footer'
+    ;
+}
+
+#principal {
+    grid-area: main;
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#principal > h1 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+#principal > p#texto-com-cor-verde {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#principal > p#texto-normal {
+    color: hsl(218, 22%, 67%);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+
+#inscricao {
+    grid-area: section;
+    background-color: hsl(179, 62%, 43%);
+    padding: 25px;
+    height: 100%;
+    width: 100%;
+}
+
+#inscricao > h2 {
+    color: hsl(204, 43%, 93%);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#dinheiro {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+#dinheiro > p#vinte-nove {
+    color: hsl(204, 43%, 93%);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#inscricao > p {
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+    margin-bottom: 35px
+}
+
+#dinheiro > p#por-mes {
+    color: hsla(203, 44%, 93%, 0.363);
+}
+
+#cadastro {
+    background-color: hsl(71, 73%, 54%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.116);
+    margin-bottom: 5px;
+}
+
+input {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#rodape {
+    grid-area: footer;
+    background-color: hsl(179, 55%, 54%);
+    padding: 25px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#rodape > h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+#rodape > p {
+    color: hsl(203, 24%, 85%);
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+
+

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+
+    #container {
+        width: 1440px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-areas: 
+        'main main'
+        'section footer'
+        ;
+    }
+
+    #principal {
+        padding: 40px;
+    }
+
+    #inscricao {
+        padding: 40px;
+        border-radius: 0px 0px 0px 5px;
+    }
+
+    #rodape {
+        padding: 40px;
+        border-radius: 0px 0px 5px 0px;
+    }
+}
