@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Overpass, sans-serif;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    background-color: hsl(215, 20%, 12%);
+    color: white;
+    max-width: 375px;
+    height: 375px;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+div.container-star {
+    margin-bottom: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.star {
+    margin-left: 1px;
+    width: 13px;
+    height: 13px;
+}
+
+div.container-star:hover {
+    background-color: hsl(213, 19%, 25%);
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 95%;
+
+
+}
+
+.header > h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.header > p {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    line-height: 25px;
+}
+
+div.btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+}
+
+.btn {
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    color: hsl(217, 12%, 63%);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.btn-active {
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    color: hsl(217, 12%, 63%);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.btn:hover {
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(216, 12%, 8%);
+}
+
+.btn-active:hover {
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(216, 12%, 8%);
+}
+
+div.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    background-color: hsl(25, 97%, 53%);
+    height: 45px;
+    border-radius: 30px;
+    color: hsl(216, 12%, 8%);
+
+
+}
+
+div.container-btn:hover {
+    background-color: hsl(0, 100%, 100%);
+    cursor: pointer;
+}
+
+button.btn-btn-submit {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+}
+
+button.btn-btn-submit:hover {
+    background-color: hsl(0, 100%, 100%);
+    cursor: pointer;
+}
+
+
+
+div.hidden-container {
+    margin-top: 10px;
+    display: none;
+}
+
+div.thank-you {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+div.thank-you-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 60%;
+}
+
+p.thank-you-text {
+    font-size: 1rem;
+    color: hsl(25, 97%, 53%);
+}
+
+div.thank-you > h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+div.thank-you > p {
+    font-size: 1rem;
+    color: hsl(217, 12%, 63%);
+    line-height: 25px; 
+    text-align: center;
+}
