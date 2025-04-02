@@ -18,13 +18,18 @@ document.addEventListener("click", function (event) {
         selectedNumber.textContent = buttonText;
     }
     
-    if (event.target.classList.contains("btn-btn-submit")) { 
+    if (event.target.classList.contains("btn-btn-submit") ) { 
+
+        if (selectedNumber.textContent.trim() === "") {
+            alert("Por favor, selecione um número antes de enviar!");
+            return;
+        }
         document.querySelector(".header").style.display = "none";
         document.querySelector(".container-star").style.display = "none";
         document.querySelector(".btns").style.display = "none";
         document.querySelector(".container-btn").style.display = "none";
         document.querySelector(".hidden-container").style.display = "block";
-    }
+    } 
 })
 
 
