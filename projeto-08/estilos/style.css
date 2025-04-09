@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background: hsl(275, 100%, 97%) url("../images/background-pattern-mobile.svg") top center no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    max-width: 375px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container-header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.container-header > h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(292, 42%, 14%);
+}
+.container-header > img {
+    width: 25px;
+    height: 25px;
+    margin-right: 25px;
+}
+
+.container-faq {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+.container-faq > h2 {
+    margin-bottom: 20px;
+    width: 70%;
+    color: hsl(292, 42%, 14%);
+}
+
+.container-faq > h2:hover {
+    cursor: pointer;
+    color: hsl(292, 56%, 52%);
+}
+
+.icon-plus {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 20px;
+    transform: translateY(-10px);
+}
+
+.icon-plus:hover {
+    cursor: pointer;
+}
+
+.icon-minus:hover {
+    cursor: pointer;
+}
+
+.fine-row {
+    border: 1px solid hsl(275, 100%, 97%);
+    margin-bottom: 20px;
+}
+
+
+.icon-minus {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 20px;
+    transform: translateY(-10px);
+    display: none;
+}
+
+.oculto {
+    width: 95%;
+    text-align: left;
+    font-weight: 400;
+    color: hsl(292, 16%, 49%);
+    margin-bottom: 20px;
+    line-height: 1.5;
+    display: none;
+}
