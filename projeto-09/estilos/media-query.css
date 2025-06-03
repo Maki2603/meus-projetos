@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 500px) {
+
+    #ilustrator-hidden {
+        display: none;
+        width: 40%;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    body {
+        background-color: hsl(234, 29%, 20%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 100px;
+    }
+
+    #container {
+        width: 1200px;
+        height: 700px;
+        border-radius: 30px;
+    }
+
+    #active-container {
+        padding: 50px;
+    }
+
+    #ilustrator-show {
+        display: none;
+    }
+
+    #ilustrator-hidden {
+        display: block;
+        float: right;
+        height: 100%;
+    }
+
+    header > h1 {
+        font-size: 3.5em;
+    }
+
+    #email {
+        width: 80%;
+    }
+
+    button {
+        width: 80%;
+    }
+
+    form {
+        display: flex;
+        flex-flow: column;
+    }
+}

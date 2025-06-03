@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto 09</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/media-query.css">
+
+</head>
+<body>
+    <img src="imagens/illustration-sign-up-mobile.svg" alt="Imagem ilustrativa" id="ilustrator-show">
+
+    <div id="container">
+        <img src="imagens/illustration-sign-up-desktop.svg" alt="Imagem ilustrativa" id="ilustrator-hidden">
+
+        <div id="active-container">
+        <header>
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        </header>
+        <section class="informations">
+            
+            <p class="info-item"><img src="imagens/icon-list.svg" alt="Check button">Product discovery and building what matters</p>
+            <p class="info-item"> <img src="imagens/icon-list.svg" alt="Check button">Measuring to ensure updates are a success</p>
+            <p class="info-item"><img src="imagens/icon-list.svg" alt="Check button">And much more!</p>
+        </section>
+
+        <div id="forms">
+        <form action="">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="email@company.com">
+            <button type="submit" class="btn">Subscribe to monthly newsletter</button>
+        </form>
+        </div>
+        </div>
+
+        <div id="thanks-section">
+            <img src="imagens/icon-success.svg" alt="Succes button">
+            <h1>Thanks for subscribing!</h1>
+            <p>A confirmation email has been sent to <span id="selected-email"></span>. Please open it and click the button inside to confirm your subscription</p>
+
+            <button type="submit" id="btn-dismiss">Dismiss message</button>
+        </div>
+    </div>  
+
+
+    <script src="script/index.js"></script>
+</body>
+</html>
