@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    body {
+        width: 100vw;
+    }
+
+    #container {
+        padding: 10px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    header>h1 {
+        margin-right: 2em;
+        margin-left: 20px;
+    }
+
+
+    #desktop-menu {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        gap: 5em;
+        color: hsl(0, 0%, 41%);
+        font-size: 18px;
+    }
+
+    .login-desktop {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        color: hsl(0, 0%, 41%);
+        font-size: 18px;
+    }
+
+    .login-desktop>span {
+        margin-right: 20px;
+    }
+
+    .register-desktop {
+        background-color: white;
+        border: 1.5px solid hsl(0, 0%, 41%);
+        color: hsl(0, 0%, 41%);
+        border-radius: 13px;
+        font-size: 18px;
+        height: 40px;
+        width: 7em;
+    }
+
+    #features-desktop,
+    #company-desktop {
+        display: flex;
+    }
+
+    #features-desktop>p,
+    #company-desktop>p {
+        margin-right: 10px;
+    }
+
+    #arrow-up-features-desktop,
+    #arrow-up-company-desktop {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #hero {
+        display: none;
+    }
+
+    #main-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+     .main-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+        margin-top: 3em;
+        margin-bottom: 2em;
+        width: 60%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-bottom: 0px;
+        margin-right: 3.5em;
+    }
+
+    section > h2 {
+        margin-bottom: 0.5em;
+        font-size: 4.7em;
+    }
+
+    section > p {
+        text-align: left;
+        margin-bottom: 4em;
+    }
+
+    #hero-desktop {
+        display: block;
+        width: 90%;
+        max-width: 600px;
+        justify-self: end;
+        margin-left: 5em;
+    }
+
+    .patrocionios {
+        width: 50%;
+        max-width: 800px;
+        justify-content: space-evenly;
+        transform: translateY(-60px);
+        margin-bottom: 0px;
+    }
+
+    .patrocionios > img {
+        margin-right: 40px;
+    }
+
+
+    .register {}
+}

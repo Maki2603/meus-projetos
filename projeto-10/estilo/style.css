@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -15,19 +15,30 @@ body {
 
 header {
     padding: 15px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
 }
 
-/* span {
+header  h1 {
+    font-size: 2.5em;
+}
+
+#desktop-menu {
+    display: none;
+}
+
+#menu {
     display: inline-block;
-    height: 50px;
-    width: 20px;
-} */
+    width: 40px;
+    height: 23px;
+    margin-top: 10px;
+}
 
 #hero {
-    height: 30%;
-    width: 100%;
+    height: 40%;
+    width: 100vw;
+    margin-bottom: 50px;
 }
 
 section {
@@ -35,8 +46,150 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 section > h2 {
-    font-size: 2em;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+section > p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    width: 75%;
+    color: hsl(0, 0%, 41%);
+    margin-bottom: 25px;
+}
+
+#learn-btn {
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    height: 50px;
+    width: 30%;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+}
+
+.patrocionios {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+#overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsla(0, 0%, 8%, 0.61);
+    z-index: 10;
+    display: none;
+}
+
+#close-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+#side-menu {
+    position: fixed;
+    right: 0;
+    z-index: 20;
+    padding: 32px;
+    width: 65%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s;
+    color: hsl(0, 0%, 41%);
+    font-size: 18px;
+    display: none;
+}
+
+#features,
+#company {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+#features > p,
+#company > p {
+    margin-right: 20px;
+}
+
+#arrow-up-features,
+#arrow-up-company {
+    display: none;
+}
+
+#ul-features,
+#ul-company {
+    margin: 30px;
+    margin-left: 20px;
+    list-style: none;
+    display: none;
+}
+
+li {
+    margin-bottom: 25px;
+}
+
+li > img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    transform: translateY(3px);
+}
+
+.careers,
+.about {
+    margin-bottom: 20px;
+}
+
+.careers:hover,
+.about:hover {
+    cursor: pointer;
+
+}
+
+.arrow {
+    height: 5px;
+    width: 10px;
+    transform: translateY(5px);
+}
+
+.login {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.register {
+    margin-top: 20px;
+    background-color: hsl(0, 0%, 98%);
+    width: 100%;
+    height: 50px;
+    border: 1.5px solid hsl(0, 0%, 41%);
+    border-radius: 15px;
+    color: hsl(0, 0%, 41%);
+    font-size: 18px;
+}
+
+.register,
+#features,
+#company,
+#close-menu,
+#menu {
+    cursor: pointer;
+}
+
+#hero-desktop {
+    display: none;
 }
