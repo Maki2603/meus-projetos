@@ -66,6 +66,7 @@
         <p><a href="https://maki2603.github.io/meus-projetos/projeto-07/index.html"><strong>Projeto 07</strong></a></p> 
         <p><a href="https://maki2603.github.io/meus-projetos/projeto-08/index.html"><strong>Projeto 08</strong></a></p>
         <p><a href="https://maki2603.github.io/meus-projetos/projeto-09/index.html"><strong>Projeto 09</strong></a></p>  
+        <p><a href="https://maki2603.github.io/meus-projetos/projeto-10/index.html"><strong>Projeto 10</strong></a></p>  
     </main>
 </body>
 </html>

@@ -30,7 +30,7 @@ document.addEventListener("click", function (event) {
         event.target === this.querySelector("#company") ||
         event.target === this.querySelector("#company-p") ||
         event.target === this.querySelector("#arrow-down-company")
-    ){
+    ) {
         const isOpen = this.querySelector("#company").classList.contains("company-open");
         if (isOpen) {
             this.querySelector("#ul-company").style.display = "none";
@@ -49,7 +49,7 @@ document.addEventListener("click", function (event) {
         event.target === this.querySelector("#features-desktop") ||
         event.target === this.querySelector("#features-desktop-p") ||
         event.target === this.querySelector("#arrow-down-features-desktop")
-    ){
+    ) {
         const isOpen = this.querySelector("#features-desktop").classList.contains("features-desktop-open");
         if (isOpen) {
             this.querySelector("#ul-features-desktop").style.display = "none";
@@ -68,22 +68,13 @@ document.addEventListener("click", function (event) {
         event.target === this.querySelector("#company-desktop") ||
         event.target === this.querySelector("#company-desktop-p") ||
         event.target === this.querySelector("#arrow-down-company-desktop")
-    ){
+    ) {
         const isOpen = this.querySelector("#company-desktop").classList.contains("company-desktop-open");
-        if (isOpen) {
-            this.querySelector("#ul-company-desktop").style.display = "none";
-            this.querySelector("#arrow-up-company-desktop").style.display = "none";
-            this.querySelector("#arrow-down-company-desktop").style.display = "block";
-            this.querySelector("#main-desktop").style.marginTop = "1em";
-            this.querySelector("#company-desktop").classList.remove("company-desktop-open");
-            this.querySelector("#company-desktop-p").classList.remove("company-desktop-open");
-        } else {
-            this.querySelector("#ul-company-desktop").style.display = "block";
-            this.querySelector("#arrow-up-company-desktop").style.display = "block";
-            this.querySelector("#arrow-down-company-desktop").style.display = "none";
-            this.querySelector("#main-desktop").style.marginTop = "6em";
-            this.querySelector("#company-desktop").classList.add("company-desktop-open");
-            this.querySelector("#company-desktop-p").classList.add("company-desktop-open");
+            this.querySelector("#ul-company-desktop").style.display = isOpen ? "none" : "block";
+            this.querySelector("#arrow-up-company-desktop").style.display = isOpen ? "none" : "block";
+            this.querySelector("#arrow-down-company-desktop").style.display = isOpen ? "block" : "none";
+            this.querySelector("#main-desktop").style.marginTop = isOpen ? "1em" : "6em";
+            this.querySelector("#company-desktop").classList.toggle("company-desktop-open");
+            this.querySelector("#company-desktop-p").classList.toggle("company-desktop-open");
         }
-    } 
 });
