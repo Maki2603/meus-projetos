@@ -20,7 +20,7 @@
         <nav id="side-menu">
             <div id="close-menu"><img src="images/icon-close-menu.svg" alt="Close menu" class="close-menu"></div>
             <div id="features">
-                <p>Features</p>
+                <p id="features-p">Features</p>
                 <img src="images/icon-arrow-down.svg" alt="" id="arrow-down-features" class="arrow">
                 <img src="images/icon-arrow-up.svg" alt="" id="arrow-up-features" class="arrow">
             </div>
@@ -31,7 +31,7 @@
                 <li><img src="images/icon-planning.svg" alt=""> Planning</li>
             </ul>
             <div id="company">
-                <p>Company</p>
+                <p id="company-p">Company</p>
                 <img src="images/icon-arrow-down.svg" alt="" id="arrow-down-company" class="arrow">
                 <img src="images/icon-arrow-up.svg" alt="" id="arrow-up-company" class="arrow">
             </div>
@@ -53,19 +53,30 @@
             <img src="images/icon-menu.svg" alt="Menu" id="menu">
             <nav id="desktop-menu">
                 <div id="features-desktop">
-                    <p>Features</p>
+                    <p id="features-desktop-p">Features</p>
                     <img src="images/icon-arrow-down.svg" alt="" id="arrow-down-features-desktop" class="arrow">
                     <img src="images/icon-arrow-up.svg" alt="" id="arrow-up-features-desktop" class="arrow">
+                    <ul id="ul-features-desktop" class="dropdown-menu">
+                        <li><img src="images/icon-todo.svg" alt=""> Todo List</li>
+                        <li><img src="images/icon-calendar.svg" alt=""> Calendar</li>
+                        <li><img src="images/icon-reminders.svg" alt=""> Reminders</li>
+                        <li><img src="images/icon-planning.svg" alt=""> Planning</li>
+                    </ul>
                 </div>
                 <div id="company-desktop">
-                    <p>Company</p>
+                    <p id="company-desktop-p">Company</p>
                     <img src="images/icon-arrow-down.svg" alt="" id="arrow-down-company-desktop" class="arrow">
                     <img src="images/icon-arrow-up.svg" alt="" id="arrow-up-company-desktop" class="arrow">
+                    <ul id="ul-company-desktop" class="dropdown-menu"> 
+                        <li>History</li>
+                        <li>Our team</li>
+                        <li>Blog</li>
+                    </ul>
                 </div>
-                <p>Careers</p>
-                <p>About</p>
+                <p id="careers-desktop">Careers</p>
+                <p id="about-desktop">About</p>
                 <div class="login-desktop">
-                    <span>Login</span>
+                    <span id="login">Login</span>
                     <button class="register-desktop">Register</button>
                 </div>
             </nav>
@@ -78,21 +89,24 @@
             <div class="main-content">
                 <section>
                     <h2>Make remote work</h2>
-                    <p>Get your team in sync. no matter your location. Streamline processes. create team rituals. and watch
-                        productivity soar.</p>
+                    <p>Get your team in sync. no matter your location. Streamline processes. create team rituals. and
+                        watch productivity soar.</p>
                     <button id="learn-btn">Learn more</button>
+
                 </section>
-                
+
                 <img src="images/image-hero-desktop.png" alt="Imagem ilustrativa" id="hero-desktop">
                 <div class="patrocionios">
-                <img src="images/client-databiz.svg" alt="" class="databiz">
-                <img src="images/client-audiophile.svg" alt="" class="audiophile">
-                <img src="images/client-meet.svg" alt="" class="meet">
-                <img src="images/client-maker.svg" alt="" class="maker">
+                    <img src="images/client-databiz.svg" alt="" class="databiz">
+                    <img src="images/client-audiophile.svg" alt="" class="audiophile">
+                    <img src="images/client-meet.svg" alt="" class="meet">
+                    <img src="images/client-maker.svg" alt="" class="maker">
+                </div>
+
             </div>
-            </div>
-            
+
         </div>
     </div>
+    <script src="scripts/index.js"></script>
 </body>
 </html>
